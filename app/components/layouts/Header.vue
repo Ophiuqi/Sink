@@ -31,8 +31,7 @@ const { title, github } = useAppConfig()
               class="flex h-8 w-8 items-center justify-center rounded-full"
             >
               <img
-                src="/sink.png"
-                :alt="title"
+                src="/work.png"
                 class="h-full w-full rounded-full"
               >
             </span>
@@ -74,7 +73,7 @@ const { title, github } = useAppConfig()
                 "
               >
                 <img
-                  src="/sink.png"
+                  src="/work.png"
                   :alt="title"
                   class="h-full w-full rounded-full"
                 >
@@ -98,25 +97,6 @@ const { title, github } = useAppConfig()
                 href="/dashboard"
                 :title="`${title} Dashboard`"
               >{{ $t('dashboard.title') }}</a>
-              <a
-                :href="github"
-                target="_blank"
-                title="Github"
-                class="
-                  mr-2 inline-flex w-full items-center bg-gray-900 px-6 py-3
-                  text-sm leading-4 font-medium text-white
-                  hover:bg-gray-800
-                  focus:ring-0 focus:ring-gray-800 focus:ring-offset-2
-                  focus:outline-hidden
-                  md:w-auto md:rounded-full md:px-3 md:focus:ring-2
-                "
-              >
-                <GitHubIcon
-                  class="mr-1 h-5 w-5"
-                />
-                GitHub</a>
-
-              <SwitchLanguage />
 
               <SwitchTheme />
             </div>
