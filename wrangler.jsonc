@@ -1,6 +1,6 @@
 {
   "$schema": "node_modules/wrangler/config-schema.json",
-  "name": "short-url",
+  "name": "my-short-url",
   "main": "dist/server/index.mjs",
   "assets": {
     "binding": "ASSETS",
